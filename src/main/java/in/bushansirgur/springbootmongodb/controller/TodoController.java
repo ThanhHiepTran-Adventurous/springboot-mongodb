@@ -4,12 +4,12 @@ import in.bushansirgur.springbootmongodb.exception.TodoCollectionException;
 import in.bushansirgur.springbootmongodb.model.TodoDTO;
 import in.bushansirgur.springbootmongodb.repository.TodoRepository;
 import in.bushansirgur.springbootmongodb.service.TodoService;
-import jakarta.validation.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.ConstraintViolationException;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;

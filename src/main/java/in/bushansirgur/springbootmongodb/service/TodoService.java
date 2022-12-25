@@ -2,8 +2,8 @@ package in.bushansirgur.springbootmongodb.service;
 
 import in.bushansirgur.springbootmongodb.exception.TodoCollectionException;
 import in.bushansirgur.springbootmongodb.model.TodoDTO;
-import jakarta.validation.ConstraintViolationException;
 
+import javax.validation.ConstraintViolationException;
 import java.util.List;
 
 public interface TodoService {

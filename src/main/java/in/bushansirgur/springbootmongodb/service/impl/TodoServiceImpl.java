@@ -4,10 +4,10 @@ import in.bushansirgur.springbootmongodb.exception.TodoCollectionException;
 import in.bushansirgur.springbootmongodb.model.TodoDTO;
 import in.bushansirgur.springbootmongodb.repository.TodoRepository;
 import in.bushansirgur.springbootmongodb.service.TodoService;
-import jakarta.validation.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.validation.ConstraintViolationException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
