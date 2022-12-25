@@ -11,7 +11,7 @@ import java.util.Optional;
 public interface TodoRepository extends MongoRepository<TodoDTO, String> {
 
 
-//    @Query("{'todo': ?0}")
+    @Query("{'todo': ?0}")
     Optional<TodoDTO> findByTodo(String todo);
 
 }
